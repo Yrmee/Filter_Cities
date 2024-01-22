@@ -1,0 +1,27 @@
+body {
+    display: block;
+    margin: 20px;
+    font-family: arial;
+    letter-spacing: 1px;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+  }
+  
+  dt {
+    grid-column-start: 1;
+  }
+  
+  dd {
+    grid-column-start: 2;
+    color: lightgray;
+    margin-left: -10px;
+  }
+  
+  dt, dd {
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+  }
+  
